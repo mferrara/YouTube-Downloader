@@ -21,3 +21,5 @@
 $app = include_once('bootstrap.php');
 
 $app->runWithRoute('index');
+
+echo '404, ralph not found.';
